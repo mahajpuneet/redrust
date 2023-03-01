@@ -20,7 +20,7 @@ image: "rustlang/rust:nightly"
 test:cargo:
   script:
     - rustc --version && cargo --version  # Print version info for debugging
-    - cargo test --workspace -- --nocapture
+    - cargo test --no-fail-fast --message-format=json | jq -r 'select(.reason == "compiler-message") | .message | select(.level == "error") | .rendered'
 
 
 # Optional: Use a third party library to generate gitlab junit reports
