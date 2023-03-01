@@ -14,6 +14,7 @@ image: "rustlang/rust:nightly"
 # You will often need this when you (or any of your dependencies) depends on C code.
 before_script:
    - apt-get update && apt-get install -y jq
+   - apt-get install -y libjemalloc-dev 
    - apt-get update -yqq
    - apt-get install -yqq --no-install-recommends build-essential
 
