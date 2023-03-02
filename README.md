@@ -22,7 +22,7 @@ Rust is a modern programming language that includes many features that make it e
 Getting started
 ---------------
 
-To use redrust, you will need to have Rust and Cargo installed on your system. Once you have Rust and Cargo installed, you can clone the redrust repository and build the library:
+To use RedRust, you will need to have Rust and Cargo installed on your system. Once you have Rust and Cargo installed, you can clone the redrust repository and build the library:
 
 shellCopy code
 ```
@@ -31,7 +31,7 @@ $ cd redis-in-rust
 $ cargo build --release
 ```
 
-This will build the redrust library in release mode. You can then link against the library in your own Rust project.
+This will build the RedRust library in release mode. You can then link against the library in your own Rust project.
 
 Contributing
 ------------
