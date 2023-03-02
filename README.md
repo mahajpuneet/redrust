@@ -22,7 +22,7 @@ Rust is a modern programming language that includes many features that make it e
 Getting started
 ---------------
 
-To use Redis in Rust, you will need to have Rust and Cargo installed on your system. Once you have Rust and Cargo installed, you can clone the Redis in Rust repository and build the library:
+To use redrust, you will need to have Rust and Cargo installed on your system. Once you have Rust and Cargo installed, you can clone the redrust repository and build the library:
 
 shellCopy code
 ```
@@ -31,19 +31,19 @@ $ cd redis-in-rust
 $ cargo build --release
 ```
 
-This will build the Redis in Rust library in release mode. You can then link against the library in your own Rust project.
+This will build the redrust library in release mode. You can then link against the library in your own Rust project.
 
 Contributing
 ------------
 
-Redis in Rust is an open-source project, and we welcome contributions from anyone who is interested in helping to improve the project. 
+RedRust is an open-source project, and we welcome contributions from anyone who is interested in helping to improve the project. 
 
 License
 -------
 
-Redis in Rust is licensed under the Apache 2.0 license. 
+RedRust is licensed under the Apache 2.0 license. 
 
 Conclusion
 ----------
 
-Redis in Rust is a high-performance, safe, and modern port of Redis to the Rust programming language. We believe that this project has the potential to become a popular alternative to the C-based Redis implementation, and we invite you to contribute and help us make it even better.
+RedRust is a high-performance, safe, and modern port of Redis to the Rust programming language. We believe that this project has the potential to become a popular alternative to the C-based Redis implementation, and we invite you to contribute and help us make it even better.
