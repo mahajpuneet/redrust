@@ -22,7 +22,7 @@ before_script:
 test:cargo:
   script:
     - rustc --version && cargo --version  # Print version info for debugging
-    - cargo build --no-fail-fast --message-format=json | jq -r 'select(.reason == "compiler-message") | .message | select(.level == "error") | .rendered'
+    - cargo build --message-format=json | jq -r 'select(.reason == "compiler-message") | .message | select(.level == "error") | .rendered'
 
 
 # Optional: Use a third party library to generate gitlab junit reports
