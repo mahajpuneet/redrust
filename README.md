@@ -1,4 +1,4 @@
-# redrust (Redis in Rust)
+# RedRust (Redis in Rust)
 
 redrust is a port of the popular Redis database system written in Rust programming language. This port aims to provide all the features of Redis while taking advantage of the Rust language's safety, speed, and modern language features.
 
