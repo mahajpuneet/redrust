@@ -8,10 +8,10 @@ c2rust-bitfields = "0.17.0"
 #f128 = "0.2.9"
 num-traits = "0.2.15"
 
-#[lib]
-#name = "redrust"
-#path = "src/lib.rs"
-
-[[bin]]
+[lib]
 name = "redrust"
-path = "src/main.rs"
+path = "src/lib.rs"
+
+#[[bin]]
+#name = "redrust"
+#path = "src/main.rs"
