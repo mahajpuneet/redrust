@@ -25,10 +25,11 @@ Getting started
 To use Redis in Rust, you will need to have Rust and Cargo installed on your system. Once you have Rust and Cargo installed, you can clone the Redis in Rust repository and build the library:
 
 shellCopy code
-
-`$ git clone https://github.com/mahajpuneet/redrust.git
+```
+$ git clone https://github.com/mahajpuneet/redrust.git
 $ cd redis-in-rust
-$ cargo build --release`
+$ cargo build --release
+```
 
 This will build the Redis in Rust library in release mode. You can then link against the library in your own Rust project.
 
