@@ -27,7 +27,7 @@ To use RedRust, you will need to have Rust and Cargo installed on your system. O
 shellCopy code
 ```
 $ git clone https://github.com/mahajpuneet/redrust.git
-$ cd redis-in-rust
+$ cd redrust
 $ cargo build --release
 ```
 
